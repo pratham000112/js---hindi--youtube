@@ -61,8 +61,27 @@ gameCounter++;
 // new type conversion in it
 
 
-console.log("2">1)
-console.log("02">1)
-console.log("02" == 1)
-console.log("02" >= 1)
+//console.log("2">1)
+//console.log("02">1)
+//console.log("02" == 1)
+//console.log("02" >= 1)
+
+// Reason of all that in it is that javascript is it is the comparsion operator and the javascript convert it into the string to number.
+ 
+//console.log(null>0); // this is the relational comparsion. in this it can convert into number.
+//console.log(null==0);// this is the Equality comparsion. in this it cannot convert into number.
+
+//console.log(null>=0);
+
+// in this one more concept is that in the relation when it convert in it first do that !(a>b)
+//is that in it. it is based on j/s eCMA Specification in it.
+
+console.log(undefined==0);
+
+console.log(undefined>0);
+
+console.log(undefined>=0);// why it is false because the value is undefined in it  that is Nan so it become the false.
+
+
+
 
