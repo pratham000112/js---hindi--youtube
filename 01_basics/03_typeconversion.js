@@ -40,5 +40,8 @@ let isLogged = Boolean(boolenNumber)
 
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter)
+//console.log(gameCounter)
+
+
+console.log("5"-2) // reason is that for the (- * /) convert the value into a number.
 
