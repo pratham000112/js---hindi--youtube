@@ -54,8 +54,15 @@ gameCounter++;
  
 //conversion with the Null
 
-console.log(Number(null)) // reason is when the Number is converting into the Number it show the empty value to the null that is Zero in it
-console.log(Number(undefined)) //  means the variable declared but cannot assigned the value in it . is it show the Nan
+//console.log(Number(null)) // reason is when the Number is converting into the Number it show the empty value to the null that is Zero in it
+//console.log(Number(undefined)) //  means the variable declared but cannot assigned the value in it . is it show the Nan
 
 
+// new type conversion in it
+
+
+console.log("2">1)
+console.log("02">1)
+console.log("02" == 1)
+console.log("02" >= 1)
 
