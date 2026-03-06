@@ -22,5 +22,17 @@ console.log(isLogged)
 // 1 = true
 // 0 = false
 // "0" = true
-// "1" = true
-//
+// "1" = true  same occur on the name
+// "" = false
+
+
+//  string Type Conversion in J/s
+
+
+console.log("1"+2+2)
+console.log(2 + 1 + "1")
+
+
+//js evalutes expressions left to right in it.
+
+
