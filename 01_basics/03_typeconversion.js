@@ -43,5 +43,19 @@ gameCounter++;
 //console.log(gameCounter)
 
 
-console.log("5"-2) // reason is that for the (- * /) convert the value into a number.
+
+//console.log("5"-2) // reason is that for the (- * /) convert the value into a number.
+
+// conversion with the Boolean
+
+//console.log(true+1) //  reason is the true is = 1
+//console.log(false+1) //  reason is the false is = 0
+
+ 
+//conversion with the Null
+
+console.log(Number(null)) // reason is when the Number is converting into the Number it show the empty value to the null that is Zero in it
+console.log(Number(undefined)) //  means the variable declared but cannot assigned the value in it . is it show the Nan
+
+
 
