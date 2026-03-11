@@ -48,5 +48,19 @@ console.log(typeof strPrim2);
 console.log(typeof strPrim3);
 console.log(typeof  obj)  // string cannot convert the type of the object in it.
 
+const s1 = "2 + 2"
+const  s2 = new String("2 + 2");
+
+console.log(eval(s1))
+console.log(eval(s2))
+
+//eval is a built in j/s function that executes a string as a j/s code.
+
+// the main use of the eval is the code come dynamically as a string in it.
+
+
+let expression = "8 * 7 +10"
+console.log(eval(expression));
+
 
 
