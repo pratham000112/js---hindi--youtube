@@ -61,6 +61,7 @@ console.log(eval(s2))
 
 let expression = "8 * 7 +10"
 console.log(eval(expression));
+// it is used in the dynamic code.
 
 
 
