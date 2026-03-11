@@ -63,5 +63,18 @@ let expression = "8 * 7 +10"
 console.log(eval(expression));
 // it is used in the dynamic code.
 
+//string coercion in j/s means that java script automatically  convert another data type(number, boolean) etc.
+// into a string when performing the certain operations.
+
+// symbol 
+
+let ab = Symbol("id")
+console.log(String(ab))
+
+let ac = Symbol("id")
+
+console.log("value:" + ac)
+
+
 
 
