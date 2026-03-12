@@ -28,10 +28,32 @@ console.log(myArr)
 // shallow copy and the Deep copy.
  // shallow copy are like the heap and the deep copy are like the stack.
 
-
+// slice
  let text = "MarkZucerburg"
  console.log(text.slice(0,7)) // in this the last number is before the last digit in it.
+
+     // replace.
+    let player = "virat kohli"
+      console.log(player.replace("King Virat Kohli"))
+
+        //Uppercase.
+      let player1 = "Jitesh Sharma"
+         console.log(player1.toUpperCase())
+
+         // object Keys and values
+         let Bowler = {name:"Josh Hazelwood", age : 30}
+          console.log(Object.keys(Bowler));
+          console.log(Object.values(Bowler));
  
+
+          // Map it is used to map the value i do that i multiply by 2 in it.
+           let numbers = [1,2,3]
+
+           let result = numbers.map(n => n * 2);
+           console.log(result)
+
+         
+
 
 
  
