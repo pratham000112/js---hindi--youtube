@@ -72,7 +72,10 @@ console.log(myArr)
                 let AverageEconomy = BatsmanEconomy.find(n => n > 25)
 
                 console.log(AverageEconomy)
+            // the importance of find function in it stops at when it find the first Element in it.
+              
 
+            
                
 
          
