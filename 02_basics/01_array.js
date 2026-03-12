@@ -24,4 +24,14 @@ console.log(myArr.indexOf(3));
 
 console.log(myArr)
 
+
+// shallow copy and the Deep copy.
+ // shallow copy are like the heap and the deep copy are like the stack.
+
+
+ let text = "MarkZucerburg"
+ console.log(text.slice(0,7)) // in this the last number is before the last digit in it.
+ 
+
+
  
