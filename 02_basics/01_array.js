@@ -10,8 +10,18 @@ const myArr = [10,20,30,40,50,60]
  // Example of array.
 // it is the like the basket . it contains many fruits but  the basket is the one object in it.
 
+// Array methods
 
+//myArr.push(6)
+//myArr.push(7)
+//myArr.pop()
 
+//myArr.unshift(9)
+//myArr.shift
 
+console.log(myArr.includes(50)); // it is a question method
+console.log(myArr.indexOf(3));
+
+console.log(myArr)
 
  
