@@ -52,6 +52,29 @@ console.log(myArr)
            let result = numbers.map(n => n * 2);
            console.log(result)
 
+           let Num = [2,4,6,8]
+
+           let even = Num.filter(n =>n%2 ==0)  // it is used to filter the Method in it.
+           let EvenTest = Num.map(n =>n%2 ==0)  // it is used to Map the Method in it.
+              console.log(EvenTest)
+            console.log(even)
+
+              let  number = [1,3,5,7,9]
+
+               let sum =  number.reduce((total,n) => total - n,0);
+               console.log(sum)  // it is start with the 0 so it answer will be -25
+            
+               let score = [60,70,80]
+                score.forEach(num =>console.log(num));
+
+                let BatsmanEconomy = [10,20,30]
+
+                let AverageEconomy = BatsmanEconomy.find(n => n > 25)
+
+                console.log(AverageEconomy)
+
+               
+
          
 
 
