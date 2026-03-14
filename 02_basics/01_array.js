@@ -67,12 +67,42 @@ console.log(myArr)
                let score = [60,70,80]
                 score.forEach(num =>console.log(num));
 
+
+
+
                 let BatsmanEconomy = [10,20,30]
 
                 let AverageEconomy = BatsmanEconomy.find(n => n > 25)
 
                 console.log(AverageEconomy)
             // the importance of find function in it stops at when it find the first Element in it.
+
+
+            // Array Destructing
+      // it is use to the exact the value from the table and the database and assign them to variable easily.
+      // it is the like instead of assigning the variable using the indexes arra[0], arr[1]  destruction into the 
+      // let you unpack  value into the variables in it.
+
+
+      const GoatedPlayers  = ["virat Kohli","Hardik Pandya","Jasprit Bumrah"]
+         const  [first , second , third] = GoatedPlayers
+
+         console.log(first);
+         console.log(second);
+         console.log(third);
+
+
+
+
+
+
+
+
+
+
+
+
+
               
 
             
