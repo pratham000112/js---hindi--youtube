@@ -79,17 +79,25 @@ console.log(myArr)
 
 
             // Array Destructing
-      // it is use to the exact the value from the table and the database and assign them to variable easily.
+// it is  use to the exact the value from the table and the database and assign them to variable easily.
       // it is the like instead of assigning the variable using the indexes arra[0], arr[1]  destruction into the 
       // let you unpack  value into the variables in it.
 
 
-      const GoatedPlayers  = ["virat Kohli","Hardik Pandya","Jasprit Bumrah"]
-         const  [first , second , third] = GoatedPlayers
+      const GoatedPlayers  = ["virat Kohli","Hardik Pandya","Jasprit Bumrah","Jitesh Sharma"]
+         //const  [first , second , third] = GoatedPlayers  // using all the value
 
-         console.log(first);
+         const [second , , fourth] = GoatedPlayers  // used for the Skipping them.
+
+
+         //console.log(first);
          console.log(second);
-         console.log(third);
+         //console.log(third);
+         console.log(fourth);
+
+
+
+
 
 
 
