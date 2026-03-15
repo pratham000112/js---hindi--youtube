@@ -105,6 +105,28 @@ console.log(myArr)
         console.log(third);
           console.log(fourth);
 
+          // Swappping Variables
+
+          let a = 5;
+          let b = 20;
+
+          [a,b] = [b,a];
+
+          console.log(a);
+          console.log(b);
+
+          // Rest Operator in it.
+
+          const Mathnumber  = [1,2,3,4,5]
+
+          const [First,Second, ...rest] = Mathnumber;
+
+          console.log(First);
+          console.log(Second);
+          console.log(rest);
+              // it is that operator that take the remaning value in it.
+
+              
 
 
 
