@@ -87,13 +87,23 @@ console.log(myArr)
       const GoatedPlayers  = ["virat Kohli","Hardik Pandya","Jasprit Bumrah","Jitesh Sharma"]
          //const  [first , second , third] = GoatedPlayers  // using all the value
 
-         const [second , , fourth] = GoatedPlayers  // used for the Skipping them.
+      
+         //const [second , , fourth] = GoatedPlayers  // used for the Skipping them.
 
 
          //console.log(first);
-         console.log(second);
+         //console.log(second);
          //console.log(third);
-         console.log(fourth);
+         //console.log(fourth);
+
+        // Default values
+        const AusPlayers = ["Travis Head"];
+
+        const [first, ,third= "Pat cummins", fourth = "Adam Zampa"] = AusPlayers;
+
+        console.log(first);
+        console.log(third);
+          console.log(fourth);
 
 
 
