@@ -1,9 +1,10 @@
-//const Freemeetup = new Object()
+//const Freemeetup = new Object() //  this is the single ton objects.
 const Freemeetup = {}
 
 Freemeetup.id = "123ab"
-Freemeetup.name = "Kush"
-Freemeetup.isLoggedIn = false
+Freemeetup.name = "Kush"   
+Freemeetup.isLoggedIn = false  // this is the object literals.
+// this is the Empty Object literals in it.
 
 //console.log(Freemeetup);
 
