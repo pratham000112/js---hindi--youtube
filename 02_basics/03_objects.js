@@ -45,3 +45,16 @@ const regularUser = {
 
 
 
+   const course = {
+            price: "999",
+            courseInstructor: "Pulkit"
+
+   }
+   const{courseInstructor: Instructor, price} = course;
+
+   console.log(Instructor);
+
+   console.log(price);
+
+   // in this Video talk little bit about the topic jSON Api in it.
+   
