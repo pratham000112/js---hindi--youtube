@@ -56,5 +56,21 @@ const regularUser = {
 
    console.log(price);
 
+
+
+
    // in this Video talk little bit about the topic jSON Api in it.
+
+
+
+// Speed Operator
+
+const user = {name: "Pratham", age:24}
+
+const newUser =  {...user, city: "Delhi"};
+
+console.log(newUser);
    
+
+
+
