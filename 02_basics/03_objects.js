@@ -70,7 +70,27 @@ const user = {name: "Pratham", age:24}
 const newUser =  {...user, city: "Delhi"};
 
 console.log(newUser);
-   
+
+
+// Object descriptor
+// it is used to give the detailed information about a specific property of an object in it.
+
+// syntax
+//object.getOwnPropertyDescriptor(object,propertyName) 
+
+//Example
+const users = {
+   name : "Pratham"
+}
+const Descriptor = Object.getOwnPropertyDescriptor(users,"name");
+
+console.log(Descriptor);
+
+//Writable : can we change the values
+// enumerable :  will it show in the loop or not .
+// configuration :  Can we delete or modify or property seetings/
+
+
 
 
 
