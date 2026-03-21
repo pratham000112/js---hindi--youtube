@@ -1,4 +1,13 @@
 
+
+//syntax 
+ function square(number)
+{
+      return number * number;
+}
+
+
+
 function sayHello (){
     console.log("p");
     console.log("u");
@@ -57,3 +66,21 @@ function calculateCartPrice(val1, val2,...num1) {
 console.log(calculateCartPrice(200,400,500,2000))
 
 
+const user = {
+      username: "hitesh",
+       price : 199
+}
+
+function handleObject(anyobject) {
+     console.log('Username is ${anyobject.usernmae} and price is {')
+}
+
+
+
+let a = 10;
+function change(x) {
+    x = 100;
+}
+change(a);
+
+console.log(x);
