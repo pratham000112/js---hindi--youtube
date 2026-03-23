@@ -8,5 +8,39 @@ if(true) {
 }
 
 
+function one(){
+     const username = "Pulkit virmani "
 
-console.log(a);
+     function two(){
+         const website = "freeMeetup"
+             console.log(username);
+     }
+     //console.log(website);
+
+       two()
+}
+one()
+//console.log(a);
+
+if(true) {
+      const username = "Pulkit"
+         if(username === "Pulkit") {
+              const website = "youtube"
+                 console.log(username + website);       
+         }
+           // console.log(website);
+}
+//console.log(username)
+
+console.log(addone(5))
+function addone(num) {
+        return num + 1
+}
+
+
+//addone(5)
+
+addTwo(5)
+const addTwo = function(num){
+      return num + 2
+}
