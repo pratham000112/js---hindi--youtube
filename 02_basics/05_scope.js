@@ -40,6 +40,7 @@ function addone(num) {
 
 //addone(5)
 
+// Hosting concept
 addTwo(5)
 const addTwo = function(num){
       return num + 2
