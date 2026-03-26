@@ -44,5 +44,12 @@ const addThree = (num1, num2, num3) => num1 + num2 + num3; // it is the implicit
  console.log(addTwo(10,8,10))
 
 
+const myfirstcompany = first => ({companyname: "Infoneo global"})
+
+console.log(myfirstcompany("Infoneo global"));
+
+
+
+
 
     
