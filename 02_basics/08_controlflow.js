@@ -44,9 +44,44 @@ if(LoggedInFromGoogle || LoggedInFromEmail) {
        console.log("Allow user to  Enter");
 }
 
+const month = "December"
+
+switch (month) {
+    case "jan":
+        console.log("January");
+        break;
+    case "feb":
+         console.log("feb");
+        break;
+    case "march":
+         console.log("march");
+         break;
+      case "April":
+          console.log("April");
+           break;
+
+          default :
+            console.log("The Month is not list");
+
+}
 
 
 
+// falsy values 
+//false, 0, -0, BigInt, 0n, "", null, undefined, Nan
 
+// Truthy values
+// "0" , 'false', " ",[],{},function(){}
 
+const userEmail = {}
+
+if(userEmail.length === 0) {
+    console.log("Array is Empty");
+}
+
+const emptyObj = {}
+
+if (Object.keys(emptyObj).length === 0) {
+    console.log("Object is empty");
+}
  
