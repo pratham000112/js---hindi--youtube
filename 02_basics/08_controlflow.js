@@ -85,6 +85,9 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
 
+
+// Nullish coalescing operator 
+
  
 let val1;
   val1 = 5 ?? 15
@@ -99,6 +102,12 @@ let val1;
   
   
 
-  
+let price = 0;
 
+let finalPrice = price || 200;
+console.log(finalPrice);  // it is check the falsy values in it and that is used in it
 
+let product = 0;
+
+let buyproduct = product ?? 200;
+console.log(buyproduct);   // it is used to check only the null and the undefined values in it.
