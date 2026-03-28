@@ -84,4 +84,21 @@ const emptyObj = {}
 if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
+
  
+let val1;
+  val1 = 5 ?? 15
+  val2  = null ?? 10// 10
+  val3 = undefined ?? 15 //  15
+  val4 = null ?? 10 ?? 15 // in this the first value is taken it is 10
+
+  console.log(val1);
+  console.log(val2);
+  console.log(val3);
+  console.log(val4);
+  
+  
+
+  
+
+

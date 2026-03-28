@@ -5,3 +5,7 @@ let customerstate;
 
 
 console.table([accountid,accountName,customercity,customerstate])
+
+
+
+
