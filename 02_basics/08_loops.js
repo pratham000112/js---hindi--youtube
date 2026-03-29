@@ -24,3 +24,18 @@ for (let index = 0; index < myArray.length; index++) {
       console.log(element);   // Array for Loop
       
 }
+
+let index= 2;
+while (index <= 10) {
+        console.log(`value of the index is ${index}`);
+           index = index +2;
+
+}
+
+let Playerarray = ["Virat Kohli", "Rohit Sharma", "Jasprit Bumrah"]
+
+let arr = 0
+while (arr < myArray.length) {
+         console.log(` they are the Goat Players ${Playerarray[arr]}`)
+              arr = arr + 1;
+}
