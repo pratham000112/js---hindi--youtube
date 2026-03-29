@@ -61,3 +61,25 @@ while (Number >= 1)
          console.log("Hello");
             P = P+1;
    }  while(P <=5);
+
+
+   // Print the table of the Number
+
+   let num = 5;
+
+   for(let i =1; i<=10;i++)
+   {
+      console.log(`${num} * ${i} = ${num * i}`);
+   }
+
+   //factorial of a number
+
+   let num1 = 5;
+    let factorial = 1;
+
+    for(let i = 1; i <=num1; i++)
+    {
+        factorial = factorial *  i;
+    }
+
+      console.log(`factorial is ${factorial}`)
