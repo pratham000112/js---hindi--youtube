@@ -34,8 +34,17 @@ while (index <= 10) {
 
 let Playerarray = ["Virat Kohli", "Rohit Sharma", "Jasprit Bumrah"]
 
-let arr = 0
-while (arr < myArray.length) {
+let arr = 0  // it act as the counter index in it
+while (arr < Playerarray.length) {
          console.log(` they are the Goat Players ${Playerarray[arr]}`)
               arr = arr + 1;
 }
+
+// do while loop
+
+let score = 1
+
+do {
+      console.log(`score is ${score}`);
+        score = score + 1;
+} while (score <=10);
