@@ -25,3 +25,21 @@ playernames.forEach( (Caption) =>{
 });
 
 console.log(UpperNames);
+
+
+// Count occurence
+
+let element = ['a','e','b','c','d','f','a','b','c']
+
+let countelement = [];
+
+element.forEach((item) => {
+      if (countelement[item]) {
+              countelement[item]++;
+      } else { 
+             countelement[item]=1;
+      }
+});   
+
+console.log(countelement);  // if it increase by 1  then increase or Whenever choose 1
+
