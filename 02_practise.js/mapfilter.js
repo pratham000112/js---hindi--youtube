@@ -63,6 +63,29 @@ const NewNumber = [1,2,3]
 
  console.log(myTotal);
 
+ const shoopingCart = [
+    {
+        itemName : "Nike Jordan",
+        price: 4000
+    },
+    {
+        itemName : "Adidas Samba",
+        price: 5000
+    },
+    {
+        itemName : "Nike Blazer",
+        price: 4000
+    },
+    {
+        itemName : "QC CloudForm",
+        price: 4000
+    },
+
+ ]
+    const TotalPrice = shoopingCart.reduce( (acc,item) => acc + item.price, 0)
+
+    console.log(TotalPrice);
+
 
 
  
