@@ -43,3 +43,35 @@ element.forEach((item) => {
 
 console.log(countelement);  // if it increase by 1  then increase or Whenever choose 1
 
+
+// Extract Prices
+
+let  stationary = [
+        {
+           Input: {
+               name:"Pen",
+                 Price:10
+           },
+      },
+       {
+              Input : {
+
+              
+              name: "Book",
+               Price: 200
+           }
+      }     
+];
+  
+ let result = [];
+
+   stationary.forEach( (product) => {
+          result.push(product.Input.Price);  // result is used to add the value in the Push in it
+   });
+
+console.log(result);
+
+let Word = ["Apple", "Litchi","WaterMelon","Juice"]
+
+for(const Wr in Word);
+
