@@ -71,7 +71,19 @@ let  stationary = [
 
 console.log(result);
 
-let Word = ["Apple", "Litchi","WaterMelon","Juice"]
 
-for(const Wr in Word);
+const books =[
+      { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 200 },
+      { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 150 },
+  { title: 'Book Three', genre: 'Science', publish: 2001, edition: 320 },
+  { title: 'Book Four', genre: 'History', publish: 1987, edition: 275 },
+  { title: 'Book Five', genre: 'Fantasy', publish: 2010, edition: 410 },
+  { title: 'Book Six', genre: 'Biography', publish: 1999, edition: 180 },
+  { title: 'Book Seven', genre: 'Technology', publish: 2020, edition: 95 },
+  { title: 'Book Eight', genre: 'Philosophy', publish: 1975, edition: 220 },
+  { title: 'Book Nine', genre: 'Mystery', publish: 2005, edition: 300 }
+];
+
+
+
 
