@@ -61,6 +61,15 @@ const find = users.filter( (activeusers) => {
      return activeusers.isActive
 })
 
-console.log(find);
+const result = users.reduce((acc,totalvalue) => {
+    return acc + totalvalue.purchases.reduce((sum, price) => {
+          return sum + price;
+    },0);
+},0);
+
+
+console.log(result);
+//console.log(find);
 
 // Total Revenue from all Purchases
+
