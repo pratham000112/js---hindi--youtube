@@ -49,3 +49,18 @@ const  arr3 = [
   console.log(userarr);
 
 
+
+  const users = [
+    {name: "A", age: 25, isActive: true, purchases: [100,200]},
+    {name: "B", age: 30, isActive: false, purchases: [400,500]},
+    {name: "C", age: 30, isActive: false, purchases: [500,800]}
+  ]
+
+
+const find = users.filter( (activeusers) => {
+     return activeusers.isActive
+})
+
+console.log(find);
+
+// Total Revenue from all Purchases
