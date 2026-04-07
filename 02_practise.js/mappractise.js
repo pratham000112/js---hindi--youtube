@@ -50,26 +50,55 @@ const  arr3 = [
 
 
 
-  const users = [
-    {name: "A", age: 25, isActive: true, purchases: [100,200]},
-    {name: "B", age: 30, isActive: false, purchases: [400,500]},
-    {name: "C", age: 30, isActive: false, purchases: [500,800]}
-  ]
+//   const users = [
+//     {name: "A", age: 25, isActive: true, purchases: [100,200]},
+//     {name: "B", age: 30, isActive: false, purchases: [400,500]},
+//     {name: "C", age: 30, isActive: false, purchases: [500,800]}
+//   ]
 
 
-const find = users.filter( (activeusers) => {
-     return activeusers.isActive
-})
+// const find = users.filter( (activeusers) => {
+//      return activeusers.isActive
+// })
 
-const result = users.reduce((acc,totalvalue) => {
-    return acc + totalvalue.purchases.reduce((sum, price) => {
-          return sum + price;
-    },0);
-},0);
+// const result = users.reduce((acc,totalvalue) => {
+//     return acc + totalvalue.purchases.reduce((sum, price) => {
+//           return sum + price;
+//     },0);
 
 
-console.log(result);
-//console.log(find);
+    // intermediate level coding questions
 
-// Total Revenue from all Purchases
+    const players = [
+        { name : "Virat kohli", avg: 25, isPlaying: true},
+        { name : "Rohit sharma", avg: 20, isPlaying: false},
+        { name : "Rajat Patidar", avg: 30, isPlaying: true},
+    ]
+    // active in squard  and average is more than 25
+
+    const activeplayers =  players.filter( (player) => {
+        return player.isPlaying === true && player.avg >=25;
+    });
+
+    console.log(activeplayers);
+
+    
+    const score = [
+        {Team: "RCB", score:[250, 300]},
+        {Team:"CSK", score:[100, 48]}
+    ]
+
+
+    // total score
+
+    const totalscore = score.reduce((acc,  team) => {
+           const teamtotal = team.score.reduce((sum, runs) => sum + runs , 0);
+             return acc + teamtotal;
+    }, 0);
+
+    console.log(totalscore);
+
+
+
+
 
