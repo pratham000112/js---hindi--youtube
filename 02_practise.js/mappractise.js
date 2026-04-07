@@ -108,4 +108,25 @@ const runs = [1,2,3,4,5,6,7];
   console.log(result);
 
 
+  // Player Profile.
 
+  // print the player details.
+
+  const player2 = {
+  name: "Virat",
+  role: "Batsman",
+  team: "India"
+};
+
+ 
+for(const key in player2) {
+      console.log(`${key} of the player is ${player2[key]}`)
+}// 13 min.
+
+// increase ticket price by 18 % 
+
+const ticketprice = [200,400,500]
+
+ const increaseticketprice = ticketprice.map( (price)=>  price +(price * 18/100));
+
+ console.log(increaseticketprice)
