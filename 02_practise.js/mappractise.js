@@ -130,3 +130,28 @@ const ticketprice = [200,400,500]
  const increaseticketprice = ticketprice.map( (price)=>  price +(price * 18/100));
 
  console.log(increaseticketprice)
+
+
+ // question on the j/s
+
+ const data = [[2,2], [3,4], [5,6]]
+
+
+ const flattend = data.flat();
+
+ console.log(flattend);  //  flattend the value.
+
+
+ // Even numbers
+
+ const EvenNumbers = flattend.filter( (even) => {
+       return  even % 2 == 0
+ });
+
+ console.log(EvenNumbers);
+
+ const Sum  = flattend.reduce((acc, item) => {
+     return acc + item;
+ },0);
+
+ console.log(Sum);
