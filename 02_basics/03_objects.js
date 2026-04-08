@@ -88,7 +88,13 @@ console.log(Descriptor);
 
 //Writable : can we change the values
 // enumerable :  will it show in the loop or not .
-// configuration :  Can we delete or modify or property seetings/
+// configuration :  Can we delete or modify or property seetings
+
+// it is used to check the value in it.
+// can this value is changed or 
+// this is deleted or not .
+
+
 
 
 

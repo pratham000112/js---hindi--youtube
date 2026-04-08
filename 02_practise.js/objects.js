@@ -8,4 +8,8 @@ console.log(Object.keys(user));  //  name , age
 
 console.log(Object.values(user));  //pratham , 21
 
-console.log(Object.entries(user));
+console.log(Object.entries(user)); // full with the keys and the values.
+
+
+
+
