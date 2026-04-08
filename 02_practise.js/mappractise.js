@@ -171,3 +171,6 @@ const expensiveproduct = products.reduce((max, item) => {
 });
 
 console.log(expensiveproduct)
+
+
+
