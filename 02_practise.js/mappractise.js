@@ -155,3 +155,19 @@ const ticketprice = [200,400,500]
  },0);
 
  console.log(Sum);
+
+ const products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Phone", price: 80000 },
+  { name: "Tablet", price: 30000 }
+];
+
+const expensiveproduct1 =  products.filter( (item) => {
+    return  item.price > 50000
+});
+
+const expensiveproduct = products.reduce((max, item) => {
+  return item.price > max.price ? item: max;
+});
+
+console.log(expensiveproduct)
