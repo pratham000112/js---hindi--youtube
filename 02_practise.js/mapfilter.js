@@ -85,21 +85,3 @@ const NewNumber = [1,2,3]
     const TotalPrice = shoopingCart.reduce( (acc,item) => acc + item.price, 0)
 
     console.log(TotalPrice);  
-
-
-
-    
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
