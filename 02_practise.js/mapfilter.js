@@ -88,6 +88,20 @@ const NewNumber = [1,2,3]
 
 
 
+    // Reduce Method  
+
+    function flattenArray(arr) {
+          return  arr.reduce((acc, item) => {
+            if  (Array.isArray(item)) {
+                 return acc.concat(flattenArray(item));
+            }
+              return acc.concat(item);
+          }, []);
+    };
+
+    console.log(flattenArray([1, [2, [3, [4, [5]]]]]));
+
+
     
 
 
