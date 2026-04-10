@@ -101,6 +101,8 @@ const NewNumber = [1,2,3]
 
     console.log(flattenArray([1, [2, [3, [4, [5]]]]]));
 
+    
+
 
     
 
