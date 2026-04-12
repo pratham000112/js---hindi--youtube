@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am an Mern Stack Developer</title>
+</head>
+<body style  = "background-color: #212121; color:#fff;">
+    <ul class = "Players">
+      <li>Virat Kohli</li>
+      <li>Jacob Bethall</li>
+</ul>
+</body>
+
+<script>
+
+    function addPlayers(PlayersName) {
+         const playlist = document.createElement("li")
+         playlist.innerHTML = `${PlayersName}`
+         document.querySelector('.Players').
+         appendChild(playlist)
+    }
+    addPlayers("Josh HazelWood")
+
+    function secondPlayers(PlayersName) {
+        const listPlayers = document.createElement('li')
+          listPlayers.appendChild(document.createTextNode(PlayersName))
+          document.querySelector('.Players').appendChild(listPlayers)
+    }
+
+    secondPlayers("Krunal Pandya")
+
+
+    function thirdPlayers(PlayersName){
+        const listPlayers = document.createElement('li')
+        listPlayers.appendChild(document.createTextNode(PlayersName))
+        document.querySelector('.Players').appendChild(listPlayers)
+    }
+
+    thirdPlayers("Rajat Patidar")
+
+    function fourthPlayers(PlayersName){
+       const listPlayers = document.createElement('li')
+       listPlayers.innerHTML = `${PlayersName}`
+        document.querySelector('.Players').
+        appendChild(listPlayers)
+
+    }
+     fourthPlayers("Jitesh sharma")
+
+
+     // Edit 
+
+     const changePlayer = document.querySelector("li:nth-child(3)")
+
+     const newPlayer = document.createElement("li")
+         newPlayer.textContent = "Tim David"
+         changePlayer.replaceWith(newPlayer)
+
+         const Players  = document.querySelector("li:first-child")
+            Players.outerHTML = '<li>Goat virat Kohli</li>'
+
+            // Remove Players
+          const lastPlayers  = document.querySelector("li:nth-child(2)")
+            lastPlayers.remove()
+</script>
+
+
+ 
+</html>
